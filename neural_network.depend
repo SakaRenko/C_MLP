@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1687169210 source:d:\c++homework\parallel programing\nn\neural_network\utils.cpp
+	"utils.h"
+	<ctime>
+	<iostream>
+	<string>
+
+1687067206 d:\c++homework\parallel programing\nn\neural_network\utils.h
+	<string>
+	<ctime>
+
+1687271813 source:d:\c++homework\parallel programing\nn\neural_network\functions.cpp
+	"functions.h"
+	<cmath>
+	<cassert>
+	<immintrin.h>
+	<iostream>
+
+1687069224 d:\c++homework\parallel programing\nn\neural_network\functions.h
+	<vector>
+
+1687268958 source:d:\c++homework\parallel programing\nn\neural_network\mlp.cpp
+	"mlp.h"
+
+1687272019 d:\c++homework\parallel programing\nn\neural_network\mlp.h
+	"functions.h"
+	"vector"
+
+1687272002 source:d:\c++homework\parallel programing\nn\neural_network\main.cpp
+	<unistd.h>
+	<iostream>
+	<string>
+	<getopt.h>
+	<cassert>
+	"utils.h"
+	"mnist_reader_less.h"
+	"mlp.h"
+	<immintrin.h>
+	<pthread.h>
+	<Windows.h>
+
+1687066427 d:\c++homework\parallel programing\nn\neural_network\mnist_reader_less.h
+	"mnist_reader_common.h"
+
+1687066258 d:\c++homework\parallel programing\nn\neural_network\mnist_reader_common.h
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	<cstdint>
+	<memory>
+
